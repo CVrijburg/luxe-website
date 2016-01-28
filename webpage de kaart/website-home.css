@@ -1,0 +1,116 @@
+body {
+    background: #00BBFF;
+}
+header {
+    background: white;
+}
+h2 {
+    color:red;
+    margin-left: 20px;
+}
+
+abbr {
+    color:navy;
+    font-weight: bold;
+}
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+aside {
+    background: tomato;
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+nav {
+    background: orange;
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+section {
+    margin-left: 250px;
+    padding: 10px;
+    margin-top: -5px;
+}
+article {
+    background: white;
+    clear: right;
+    padding: 10px;
+    margin-top: 5px;
+}
+footer {
+    background: dodgerblue;
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+#wrapper {
+    margin: 0px auto 0px auto;
+    min-width: 780px;
+    max-width: 920px;
+}
+#title {
+    height: 100px;
+    background: url("haarlem-banner.jpg");
+    padding: 20px 0px 0px 50px;
+    margin-left: 250px;
+}
+#logo {
+    background: url("Banaan.jpg");
+    padding-left: 230px;
+    margin-left: 15px;
+    padding-bottom: 120px;
+    padding-top: -100px;
+    float: left;
+}
+#menubar ul {
+    list-style-type: none;
+    display: grind;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#menubar li {
+    display: grid;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+#nav {
+    float: left;
+    margin-top: 10px;
+}
+.underlined {
+    text-decoration: underline;
+}
+.clearRight {
+    clear: right;
+}
+.borderLeft1 {
+    border: 5px solid black;
+    border-radius: 0px 0px 0px 0px;
+}
+.borderLeft2 {
+    border: 5px solid black;
+    border-radius: 0px 0px 30px 30px;
+}
+.borderRight {
+    border: 5px solid black;
+    border-radius: 0px 0px 30px 30px;
+}
+.borderTopRight {
+    border: 5px solid black;
+    border-radius: 0px 30px 0px 0px;
+}
+.borderTopLeft {
+  border: 5px solid black;
+  border-radius: 30px 0px 0px 0px;
+}
+.cornersRound {
+    border-radius: 0px 0px 20px 20px;
+}
+.button {
+    padding-top: 15px;
+}
