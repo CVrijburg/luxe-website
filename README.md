@@ -5,6 +5,3 @@
 + Aron
 + Daan
 + Bram
-
-## Mede mogelijk gemaakt door:
-#### Sjoerd
