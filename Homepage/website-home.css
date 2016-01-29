@@ -1,6 +1,7 @@
 body {
-    background: url(haarlem.jpg) no-repeat;
-	
+    background: url(haarlem.jpg) fixed;
+    background-size: cover;
+
 }
 header {
     background: white;
@@ -33,14 +34,14 @@ nav {
     margin-top: -15px;
 }
 section {
-	background: rgba(0, 0, 0, 0.4);
+	  background: rgba(0, 0, 0, 0.4);
     margin-left: 250px;
     padding: 10px;
     margin-top: -5px;
 }
 article {
     background: rgba(0, 0, 0, 0.2);
-	color: white; 
+	  color: white;
     clear: right;
     padding: 10px;
     margin-top: 5px;
@@ -57,13 +58,13 @@ footer {
     max-width: 920px;
 }
 #title {
+  background: url("logo.jpg") no-repeat;
+  background-size: contain;
     height: 100px;
-    background: url("haarlem-banner.jpg");
     padding: 20px 0px 0px 50px;
     margin-left: 250px;
 }
 #logo {
-    background: url("logo.jpg"); 
     padding-left: 230px;
     margin-left: 15px;
     padding-bottom: 120px;
