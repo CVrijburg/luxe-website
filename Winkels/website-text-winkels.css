@@ -56,6 +56,21 @@ nav a:hover {
 p {
     font-family: "Trebuchet MS";
 }
+#language {
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid silver;
+}
+#language:hover {
+    color: white;
+    background: rgb(77,111,168);
+}
 #menubar a {
     color: black;
     background: white;

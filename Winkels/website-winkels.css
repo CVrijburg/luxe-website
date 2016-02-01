@@ -34,18 +34,18 @@ nav {
     margin-top: -15px;
 }
 section {
-	  background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     margin-left: 250px;
     padding: 10px;
     margin-top: -5px;
 }
 article {
     background: rgba(0, 0, 0, 0.2);
-	  color: white;
+    color: white;
     clear: right;
     padding: 10px;
     margin-top: 5px;
-	image-orientation: from-image;
+    image-orientation: from-image;
 }
 
 footer {
@@ -54,14 +54,17 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
+#right {
+    float: right;
+}
 #wrapper {
     margin: 0px auto 0px auto;
     min-width: 780px;
     max-width: 920px;
 }
 #title {
-  background: url("logo.jpg") no-repeat;
-  background-size: contain;
+    background: url("logo.jpg") no-repeat;
+    background-size: contain;
     height: 100px;
     padding: 20px 0px 0px 50px;
     margin-left: 250px;

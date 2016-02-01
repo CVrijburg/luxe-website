@@ -48,6 +48,9 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
+#right {
+    float: right;
+}
 #wrapper {
     margin: 0px auto 0px auto;
     min-width: 780px;
