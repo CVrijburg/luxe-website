@@ -1,83 +1,51 @@
 <HTML>
     <!-- ♠ Chiel B. Vrijbrug - https://www.reddit.com/user/Bluppert/ -->
     <HEAD>
-        <link href="website-map.css" rel="stylesheet" type="text/css" />
-        <link href="website-text-map.css" rel="stylesheet" type="text/css" />
-        <TITLE>Basiscursus HTML5</TITLE>
+        <link href="../Homepage/website-home.css" rel="stylesheet" type="text/css" />
+        <link href="../Homepage/website-text-home.css" rel="stylesheet" type="text/css" />
+        <TITLE>Luxe in Haarlem</TITLE>
     </HEAD>
     <BODY>
         <div id="wrapper">
-            <header class="borderTop">
-                <div id="logo" class="borderLeft1"><h1>Haarlem</h1></div>
-                <div id="menubar">
-                    <ul>
-                        <li><a href="">Thuis</a></li>
-                        <li><a href="">Kaart</a></li>
-                        <li><a href="">Luxe</a></li>
-                        <form class="right">
-                            <input type="text" name="tag" />
-                            <input type="submit" value="HTML5 tag zoeken" />
-                        </form>
-                    </ul>
-                </div>
-            </header>
+            <a href="http://31.151.68.115/luxe-website/Homepage/website-home.html"><div id="backborder"><div id="title"></div></div></a>
             <div id="nav">
                 <nav class="borderLeft1">
-                    <h2>Navigation</h2>
-                    <p><a href="">Banket bakkers</a></p>
-                    <p><a href="">Juweliers</a></p>
-                    <p><a href="">Hotels</a></p>
-                    <p><a href="">Restaurants</a></p>
-                    <p><a href="">Antiquairs</a></p>
+                    <div id="menubar">
+                        <form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+                            <input type="hidden" name="cref" value="" />
+                            <input type="hidden" name="ie" value="utf-8" />
+                            <input type="hidden" name="hl" value="" />
+                            <input name="q" type="text" size="17" />
+                            <input type="submit" name="sa" value="Zoeken" />
+                        </form>
+                        <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+                        <ul>
+                            <li><a href="http://31.151.68.115/luxe-website/Homepage/website-home.html">Home</a></li>
+                            <li><a href="http://31.151.68.115/luxe-website/Map/website-map.html">Kaart</a></li>
+                            <li><a href="">Winkels</a></li>
+                        </ul>
+                    </div>
                 </nav>
                 <nav class="borderLeft2">
-                    <h2>Twitter feed</h2>
+                    <h2 id="noLine">Twitter feed</h2>
+                    <a class="twitter-timeline"  href="https://twitter.com/haarlem" data-widget-id="690173970071605248">Tweets by @haarlem</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </nav>
-            </nav>
+            </div>
+            <section class="borderRight">
+                <article>
+                    <h2>Kaart van Haarlem</h2>
+                    <br>
+   						<iframe src="https://mapsengine.google.com/map/embed?mid=z1jTrBJVXk_s.kBZU8234tqws" width="640" height="480"></iframe>
+                    </p>
+                    <div class="clearRight"></div>
+                </article>
+                
+                <div class="clearRight"></div>
+            </section>
+            <footer>
+                &copy; 2016-2021
+            </footer>
         </div>
-        <section class="borderRight">
-            <article class="cornersRound">
-                <h2>Artikel 1</h2>
-                <aside class="cornersRound">
-                    <h2>Stukje Lorem ipsum</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </aside>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <div class="clearRight"></div>
-            </article>
-            <article class="cornersRound">
-                <h2>Artikel 2</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <div class="clearRight"></div>
-            </article>
-            <article class="cornersRound">
-                <h2>Artikel 3</h2>
-                <aside class="cornersRound">
-                    <h2>Nog een stukje Lorem ipsum</h2>
-                    <p>
-                        Maecenas a luctus massa. Vivamus fringilla, tortor nec ultricies mattis, urna nisl tempus risus, sed tincidunt elit magna ac enim.
-                    </p>
-                </aside>
-                <p>
-                    Ut fringilla, mauris ut dapibus tincidunt, justo magna porta leo, sit amet dignissim lectus eros ut sapien. Donec sit amet arcu posuere justo viverra mattis at sit amet
-                    purus. Quisque id congue turpis, nec mattis lectus. Phasellus ac lacus consequat, aliquam ante et, semper diam. Maecenas vitae efficitur libero.
-                </p>
-                <div class="clearRight"></div>
-            </article>
-            <div class="clearRight"></div>
-        </section>
-        <footer class="border">
-            Created by Chiel Vrijburg &nbsp; &nbsp; launched on 20-01-2016
-        </footer>
-    </div>
-</BODY>
+    </BODY>
 </HTML>

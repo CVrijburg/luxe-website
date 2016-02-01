@@ -99,3 +99,7 @@ footer {
 .clearRight {
     clear: right;
 }
+iframe{
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
