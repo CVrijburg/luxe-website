@@ -1,0 +1,100 @@
+body {
+    background: url(haarlem.jpg) fixed;
+    background-size: cover;
+
+}
+header {
+    background: white;
+}
+h2 {
+    color:red;
+    margin-left: 20px;
+}
+
+abbr {
+    color:navy;
+    font-weight: bold;
+}
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+aside {
+    background: tomato;
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+nav {
+    background: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+section {
+	  background: rgba(0, 0, 0, 0.4);
+    margin-left: 250px;
+    padding: 10px;
+    margin-top: -5px;
+}
+article {
+    background: rgba(0, 0, 0, 0.2);
+	  color: white;
+    clear: right;
+    padding: 10px;
+    margin-top: 5px;
+	image-orientation: from-image;
+}
+
+footer {
+    background: rgba(0,0,0,0.4);
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+#wrapper {
+    margin: 0px auto 0px auto;
+    min-width: 780px;
+    max-width: 920px;
+}
+#title {
+  background: url("logo.jpg") no-repeat;
+  background-size: contain;
+    height: 100px;
+    padding: 20px 0px 0px 50px;
+    margin-left: 250px;
+}
+#logo {
+    padding-left: 230px;
+    margin-left: 15px;
+    padding-bottom: 120px;
+    padding-top: -100px;
+    float: left;
+}
+#menubar ul {
+    list-style-type: none;
+    display: grind;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#menubar li {
+    display: grid;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+#nav {
+    float: left;
+    margin-top: 10px;
+}
+.underlined {
+    text-decoration: underline;
+}
+.clearRight {
+    clear: right;
+}
+
+.button {
+    padding-top: 15px;
+}
