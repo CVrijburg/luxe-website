@@ -25,7 +25,7 @@ aside {
     padding: 10px;
 }
 nav {
-	
+
     background: rgba(0, 0, 0, 0.6);
     width: 200px;
     padding: 15px;
@@ -51,8 +51,12 @@ article {
 footer {
     background: rgba(0,0,0,0.4);
     clear: both;
-    margin-top: 10px;
+    padding-top: 5px;
     text-align: center;
+}
+#right {
+
+    float: right;
 }
 #backborder {
     background: rgba(0, 0, 0, 0.2);
